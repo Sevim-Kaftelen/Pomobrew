@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { TimerMode } from '../types';
+import type { TimerMode } from '../types';
 
 const DURATIONS: Record<TimerMode, number> = {
   work: 1500,
